@@ -4,7 +4,7 @@ Small module to display weather for the requested city. Integrate with openweath
 
 # Setting up the application
 
-Create .env file in your root folder with below code
+Create .env file in your root folder with below code <br />
 REACT_APP_API_KEY='xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'
 REACT_APP_API_URL='https://api.openweathermap.org/data/2.5/weather'
 
