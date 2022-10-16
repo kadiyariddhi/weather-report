@@ -1,0 +1,5 @@
+- If I spent more time to work on this app then below points I can implement:
+
+1) We can configure some packages to improve code quality and formatting like `eslint`, `prettier` and `stylelint`. 
+2) We can display more data like country name, next weeks reports.
+3) We can implement wheather report for next week in a demographic way like implementing in a chart.
