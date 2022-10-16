@@ -1,38 +1,64 @@
-.App {
-  text-align: center;
+.site-title {
+  margin-bottom: 24px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.main-container {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  flex-direction: column;
 }
 
-.App-link {
-  color: #61dafb;
+.search {
+  padding: 16px 32px;
+  border-radius: 16px;
+  border: 1px solid beige;
+  margin-bottom: 24px;
+  background: beige;
+  outline: none;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+.city-container, .error-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 4% 8%;
+  border: 1px solid beige;
+  border-radius: 16px;
+  background: beige;
+}
+
+.error-container {
+  margin: 0;
+    background: #fff;
+    border: none;
+}
+
+.info p {
+  margin: 0;
+  text-transform: capitalize;
+  font-weight: 600;
+}
+
+.temperature {
+  font-size: 48px;
+  font-weight: 600;
+  color: midnightblue;
+  margin: 16px 0 12px;
+}
+
+.city-container sup {
+  font-size: 0.5em;
+}
+
+.city-name {
+  font-size: 24px;
+  margin: 0;
+}
+
+
+@media only screen and (max-width: 600px){
+  .city-container {
+    padding: 4% 14%;
   }
 }
